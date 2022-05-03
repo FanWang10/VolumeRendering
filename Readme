@@ -1,0 +1,38 @@
+Part I : Run
+1. To Compile:
+    $ make
+2. To Run:
+    $ ./a.out
+
+Part II : Configuration
+1. Set Resolution, Change Value Of Following Variable.
+    line 280    num_of_pixel_x
+    line 281    num_of_pixel_y
+    line 282    max_depth 
+
+2. Set Step Direction, Change Following Variable
+    line 287 - line 305
+    uncomment the line satisfy the requirement
+
+3. Set Phong Flag, Change Following Variable
+    line 312    bool phong_flag
+
+4. Change Image Name
+    line 328    fp = fopen(ImageName, "wb");
+
+5. Change Initial Location For Ray Casting
+    line 359 - 374
+    uncomment the line satisfy the requirement
+
+6. Change Scalar Value Used
+    line 394 for heart data set
+    line 397 for earth mantle data
+
+7. Change Gradient Used By Phong
+    line 411 for heart data set
+    line 416 for earth mantle data
+
+8. Change Light Position For Phong
+    line 426 - line 431 for earth mantle data
+    line 437 - line 441 for earth mantle data
+
